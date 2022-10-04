@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+  <definition name="common" template="/WEB-INF/layout/classic.jsp">
+    <put-attribute name="header" value="/WEB-INF/layout/header.jsp" />
+    <put-attribute name="footer" value="/WEB-INF/layout/footer.jsp" />
+  </definition>
+  <definition name="404" extends="common">
+    	<put-attribute name="title" value="IRS | Oops!" />
+		<put-attribute name="body" value="/WEB-INF/views/404.jsp" />
+  </definition>
+  <definition name="index" extends="common">
+    	<put-attribute name="title" value="IRS | Home" />
+		<put-attribute name="body" value="/WEB-INF/views/index.jsp" />
+  </definition>
+  <definition name="test" extends="common">
+    	<put-attribute name="title" value="IRS | Test" />
+		<put-attribute name="body" value="/WEB-INF/views/test.jsp" />
+  </definition>
+  
+  <definition name="filtered-document" extends="common">
+    	<put-attribute name="title" value="IRS | DataSet" />
+		<put-attribute name="body" value="/WEB-INF/views/filters/filtered-documents.jsp" />
+  </definition>
+  <definition name="terms" extends="common">
+    	<put-attribute name="title" value="IRS | Terms" />
+		<put-attribute name="body" value="/WEB-INF/views/filters/terms.jsp" />
+  </definition>
+  <definition name="inverted-index" extends="common">
+    	<put-attribute name="title" value="IRS | Indexer" />
+		<put-attribute name="body" value="/WEB-INF/views/filters/inverted-index.jsp" />
+  </definition>
+  
+  <definition name="calculate-nnn" extends="common">
+    	<put-attribute name="title" value="IRS | NNN" />
+		<put-attribute name="body" value="/WEB-INF/views/techniques/calculate-nnn.jsp" />
+  </definition>
+  <definition name="calculate-ntc" extends="common">
+    	<put-attribute name="title" value="IRS | NTC" />
+		<put-attribute name="body" value="/WEB-INF/views/techniques/calculate-ntc.jsp" />
+  </definition>
+  <definition name="calculate-atc" extends="common">
+    	<put-attribute name="title" value="IRS | ATC" />
+		<put-attribute name="body" value="/WEB-INF/views/techniques/calculate-atc.jsp" />
+  </definition>
+  
+  <definition name="ranked-documents" extends="common">
+    	<put-attribute name="title" value="IRS | Ranked" />
+		<put-attribute name="body" value="/WEB-INF/views/similarity/ranked-documents.jsp" />
+  </definition>
+  <definition name="precision-recall" extends="common">
+    	<put-attribute name="title" value="IRS | Precision Recall" />
+		<put-attribute name="body" value="/WEB-INF/views/similarity/precision-recall.jsp" />
+  </definition>
+</tiles-definitions>
