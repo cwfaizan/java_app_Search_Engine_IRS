@@ -24,4 +24,7 @@ It means that the term indexed at 3 is occurring 4 times in document 1 (1:4), oc
 ### [Task 3]<br/>
 Give a web interface to search for news articles on given 10 queries test collection. For each out of 10 queries, calculate a cosine similarity score between each document and query. Rank
 documents according to the score and display top 20 result set of documents for each query. Evaluate this IR System and compute precision and recall value for 10 different queries based
-on class labels. Plot a precision-recall values curve. Also compute MAP for 10 queries.
+on class labels. Plot a precision-recall values curve. Also compute MAP for 10 queries.<br/><br/>
+
+### [Task 4]<br/>
+Write a 5-page report to explain each and every step involved in all of these three tasks. The report should also give an analysis on results of documents returned in terms of precision and recall values.
