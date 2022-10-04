@@ -29,8 +29,8 @@ on class labels. Plot a precision-recall values curve. Also compute MAP for 10 q
 ### [Task 4]<br/>
 Write a 5-page report to explain each and every step involved in all of these three tasks. The report should also give an analysis on results of documents returned in terms of precision and recall values.
 
-## UI & Result<br/>
-## Technique: NNN:ATC & Result<br/>
+## Techniques & Search Accuracy<br/>
+## Technique: NNN:ATC & Search Result<br/>
 ![a 01](https://user-images.githubusercontent.com/73745377/193881166-f0227f56-cd63-470b-949e-9cb5d8451a85.png) <br/><br/>
-## Technique: NTC:ATC & Result<br/>
+## Technique: NTC:ATC & Search Result<br/>
 ![a 02](https://user-images.githubusercontent.com/73745377/193881225-63c7dc7d-33f2-463f-b548-50a97e9ef15c.png)
